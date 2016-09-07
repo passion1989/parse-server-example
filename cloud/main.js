@@ -1,4 +1,6 @@
 
-Parse.Cloud.define('hello', function(req, res) {
-  res.success('Hi');
+Parse.Cloud.define("hello", function(request, response) {
+  response.success("Hello world!");
 });
+
+require('cloud/twillo.js')
